@@ -16,7 +16,7 @@ This notebook performs an exploratory analysis of the GDSC dataset to predict dr
 
 **Data Overview**
 
-Exploration of the GDSC data revealed columns like 'COSMIC\_ID', 'CELL\_LINE\_NAME', 'TCGA\_DESC', 'DRUG\_ID', 'DRUG\_NAME', 'LN\_IC50', 'AUC', 'Z\_SCORE', 'GDSC Tissue descriptor 1',' GDSC Tissue descriptor 2', 'Cancer Type (matching TCGA label)',' Microsatellite instability Status (MSI)', 'Screen Medium', 'Growth Properties', 'CNA', 'Gene Expression', 'Methylation', 'TARGET' and 'TARGET\_PATHWAY' .
+Exploration of the GDSC data revealed columns like 'COSMIC\_ID', 'CELL\_LINE\_NAME', 'TCGA\_DESC', 'DRUG\_ID', 'DRUG\_NAME', 'LN\_IC50', 'AUC', 'Z\_SCORE', 'GDSC Tissue descriptor 1',' GDSC Tissue descriptor 2', 'Cancer Type (matching TCGA label)',' Microsatellite instability Status (MSI)', 'Growth Properties', 'CNA', 'Gene Expression', 'Methylation', 'TARGET' and 'TARGET\_PATHWAY' .
 
 **Data preprocessing, feature selection and leakage prevention**
 
