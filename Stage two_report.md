@@ -20,7 +20,7 @@ Exploration of the GDSC data revealed columns like 'COSMIC\_ID', 'CELL\_LINE\_NA
 
 **Data preprocessing, feature selection and leakage prevention**
 
-Data preprocessing revealed no missing values or duplicates in the dataset. LN\_IC50 is the target variable, as drug sensitivity is to be predicted. Leakage variables like AUC, Z\_SCORE and LN\_IC50 (target) were dropped from the dataset. Features like Microsatellite instability Status (MSI), Screen Medium, Growth Properties, CNA, Gene Expression, Methylation, TARGET, and TARGET\_PATHWAY were selected, and the rest were dropped to improve model performance.
+Data preprocessing revealed no missing values or duplicates in the dataset. LN\_IC50 is the target variable, as drug sensitivity is to be predicted. Leakage variables like AUC, Z\_SCORE and LN\_IC50 (target) were dropped from the dataset. Features like Microsatellite instability Status (MSI), Growth Properties, CNA, Gene Expression, Methylation, TARGET, and TARGET\_PATHWAY were selected, and the rest were dropped to improve model performance.
 
 **Data splitting and encoding**
 
